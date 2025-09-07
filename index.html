@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chat Fish/title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Chat Fish</h1>
+
+    <!-- Hamburger -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- Navbar -->
+    <nav id="navMenu">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div>
+      <h2>Fresh Seafood, Global Reach</h2>
+      <p>Supplying premium quality fish and seafood worldwide.</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>
+      MK Fish Trading is a trusted supplier and exporter of high-quality fresh and frozen seafood. 
+      With years of expertise in the fishing industry, we ensure the best catch is delivered from 
+      the ocean to your table.
+    </p>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <h2>Our Products</h2>
+    <div class="service-grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1617196038435-5f3a2e4f1a02" alt="Fresh Fish" />
+        <h3>Fresh Fish</h3>
+        <p>Locally caught, carefully selected, and delivered fresh daily.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1604908177522-43259e86ed55" alt="Frozen Seafood" />
+        <h3>Frozen Seafood</h3>
+        <p>Preserved under strict standards to maintain taste and nutrition.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1625949277762-510e6a5a75c1" alt="Export Services" />
+        <h3>Export Services</h3>
+        <p>We export globally, ensuring compliance with international standards.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 MK Fish Trading. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
